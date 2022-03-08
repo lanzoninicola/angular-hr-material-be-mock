@@ -1,16 +1,1093 @@
 {
-  "posts":[
+  "picklist": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "type": "recruitingRoles",
+      "key": "hiring-manager",
+      "value": "Hiring Manager",
+      "order": 1
+    },
+    {
+      "id": 12,
+      "type": "recruitingRoles",
+      "key": "interviewer",
+      "value": "Interviewer",
+      "order": 1
+    },
+    {
+      "id": 13,
+      "type": "recruitingRoles",
+      "key": "recruiter",
+      "value": "Recruiter",
+      "order": 1
+    },
+    {
+      "id": 14,
+      "type": "recruitingRoles",
+      "key": "guest",
+      "value": "Guest",
+      "order": 1
+    },
+    {
+      "id": 3,
+      "type": "companyLevels",
+      "key": "manager",
+      "value": "Manager",
+      "order": 1
+    },
+    {
+      "id": 31,
+      "type": "companyLevels",
+      "key": "team-lead",
+      "value": "Team Lead",
+      "order": 1
+    },
+    {
+      "id": 32,
+      "type": "companyLevels",
+      "key": "specialist",
+      "value": "Specialist",
+      "order": 1
+    },
+    {
+      "id": 4,
+      "type": "business-unit",
+      "key": "alpha-product",
+      "value": "Alpha Product",
+      "order": 1
+    },
+    {
+      "id": 41,
+      "type": "business-unit",
+      "key": "beta-product",
+      "value": "Beta Product",
+      "order": 1
+    },
+    {
+      "id": 42,
+      "type": "business-unit",
+      "key": "delta-product",
+      "value": "Delta Product",
+      "order": 1
+    },
+    {
+      "id": 5,
+      "type": "role-level",
+      "key": "junior",
+      "value": "Junior",
+      "order": 1
+    },
+    {
+      "id": 51,
+      "type": "role-level",
+      "key": "middle",
+      "value": "Middle",
+      "order": 1
+    },
+    {
+      "id": 52,
+      "type": "role-level",
+      "key": "senior",
+      "value": "Senior",
+      "order": 1
+    },
+    {
+      "id": 6,
+      "type": "job-location-type",
+      "key": "full-remote",
+      "value": "Full Remote",
+      "order": 1
+    },
+    {
+      "id": 61,
+      "type": "job-location-type",
+      "key": "presential",
+      "value": "Presential",
+      "order": 1
+    },
+    {
+      "id": 62,
+      "type": "job-location-type",
+      "key": "remote-presential",
+      "value": "Remote/Presential",
+      "order": 1
+    },
+    {
+      "id": 7,
+      "type": "employment-status",
+      "key": "part-time",
+      "value": "Part-time",
+      "order": 1
+    },
+    {
+      "id": 71,
+      "type": "employment-status",
+      "key": "full-time-employment",
+      "value": "Full-time employment",
+      "order": 1
+    },
+    {
+      "id": 8,
+      "type": "rth-working-status",
+      "key": "new",
+      "value": "New",
+      "order": 1
+    },
+    {
+      "id": 81,
+      "type": "rth-working-status",
+      "key": "backlog",
+      "value": "Backlog",
+      "order": 2
+    },
+    {
+      "id": 82,
+      "type": "rth-working-status",
+      "key": "in-progress",
+      "value": "In Progress",
+      "order": 3
+    },
+    {
+      "id": 83,
+      "type": "rth-working-status",
+      "key": "pending",
+      "value": "Pending",
+      "order": 4
+    },
+    {
+      "id": 84,
+      "type": "rth-working-status",
+      "key": "done",
+      "value": "Done",
+      "order": 5
+    },
+    {
+      "id": 9,
+      "type": "yesno",
+      "key": "yes",
+      "value": "Yes",
+      "order": 1
+    },
+    {
+      "id": 91,
+      "type": "yesno",
+      "key": "no",
+      "value": "No",
+      "order": 2
+    },
+    {
+      "id": 10,
+      "type": "jobid-working-status",
+      "key": "draft",
+      "value": "Draft",
+      "order": 1
+    },
+    {
+      "id": 101,
+      "type": "jobid-working-status",
+      "key": "published",
+      "value": "Published",
+      "order": 2
+    },
+    {
+      "id": 102,
+      "type": "jobid-working-status",
+      "key": "closed",
+      "value": "Closed",
+      "order": 3
+    },
+    {
+      "id": 11,
+      "type": "jobapplication-working-status",
+      "key": "available",
+      "value": "Available",
+      "order": 1
+    },
+    {
+      "id": 111,
+      "type": "jobapplication-working-status",
+      "key": "under-review",
+      "value": "Under review",
+      "order": 2
+    },
+    {
+      "id": 112,
+      "type": "jobapplication-working-status",
+      "key": "applicants-being-selected",
+      "value": "Applicants being selected",
+      "order": 3
+    },
+    {
+      "id": 113,
+      "type": "jobapplication-working-status",
+      "key": "referred-to-hiring-manager",
+      "value": "Referred to hiring manager",
+      "order": 4
+    },
+    {
+      "id": 114,
+      "type": "jobapplication-working-status",
+      "key": "in-progress",
+      "value": "In Progress",
+      "order": 5
+    },
+    {
+      "id": 115,
+      "type": "jobapplication-working-status",
+      "key": "incomplete-application",
+      "value": "Incomplete application",
+      "order": 6
+    },
+    {
+      "id": 116,
+      "type": "jobapplication-working-status",
+      "key": "second-group",
+      "value": "Second group",
+      "order": 7
+    },
+    {
+      "id": 117,
+      "type": "jobapplication-working-status",
+      "key": "position-closed",
+      "value": "Position closed",
+      "order": 8
+    },
+    {
+      "id": 118,
+      "type": "jobapplication-working-status",
+      "key": "vacancy-filled",
+      "value": "Vacancy filled",
+      "order": 9
+    },
+    {
+      "id": 12,
+      "type": "jobapplication-activity-type",
+      "key": "generic",
+      "value": "Generic Activity",
+      "order": 1
+    },
+    {
+      "id": 13,
+      "type": "jobapplication-activity-type",
+      "key": "phone-call",
+      "value": "Phone Call",
+      "order": 2
+    },
+    {
+      "id": 14,
+      "type": "interview-stage",
+      "key": "scheduled",
+      "value": "Scheduled",
+      "order": 1
+    },
+    {
+      "id": 140,
+      "type": "interview-stage",
+      "key": "in-progress",
+      "value": "In progress",
+      "order": 2
+    },
+    {
+      "id": 141,
+      "type": "interview-stage",
+      "key": "done",
+      "value": "Closed",
+      "order": 3
+    },
+    {
+      "id": 142,
+      "type": "interview-stage",
+      "key": "interviewer-declined",
+      "value": "Interviewer declined",
+      "order": 4
     }
   ],
-  "comments" : [
+  "departments": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 1,
+      "name": "Human Resources",
+      "managerId": 1,
+      "teamLeads": []
+    },
+    {
+      "id": 2,
+      "name": "Front-end Developers",
+      "managerId": 1,
+      "teamLeads": [71, 72]
+    },
+    {
+      "id": 3,
+      "name": "Back-end Developers",
+      "managerId": 2,
+      "teamLeads": []
+    },
+    {
+      "id": 4,
+      "name": "Database Developers",
+      "managerId": 1,
+      "teamLeads": []
+    },
+    {
+      "id": 5,
+      "name": "IT Infrastructure",
+      "managerId": 1,
+      "teamLeads": []
+    }
+  ],
+  "branches": [
+    {
+      "id": 1,
+      "name": "Home Office",
+      "street": "",
+      "city": "",
+      "country": "",
+      "timezone": ""
+    },
+    {
+      "id": 2,
+      "name": "New York Office",
+      "street": "45th street",
+      "city": "Brooklyn",
+      "country": "USA",
+      "timezone": "GMT-5"
+    },
+    {
+      "id": 3,
+      "name": "Sao Paulo Office",
+      "street": "Rua Prefeito Marcado",
+      "city": "Sao Paolo",
+      "country": "Brazil",
+      "timezone": "GMT-3"
+    }
+  ],
+  "jobroles": [
+    {
+      "id": 1,
+      "name": "Front-end Developer",
+      "roleAbout": "The Google Cloud Platform team helps customers transform and build what's next for their business — all with technology built in the cloud. Our products are engineered for security, reliability and scalability, running the full stack from infrastructure to applications to devices and hardware."
+    },
+    {
+      "id": 11,
+      "name": "Front-end Developer Team Lead",
+      "roleAbout": "The Google Cloud Platform team helps customers transform and build what's next for their business — all with technology built in the cloud. Our products are engineered for security, reliability and scalability, running the full stack from infrastructure to applications to devices and hardware."
+    },
+    {
+      "id": 2,
+      "name": "Back-end Developer",
+      "roleAbout": "The Google Cloud Platform team helps customers transform and build what's next for their business — all with technology built in the cloud. Our products are engineered for security, reliability and scalability, running the full stack from infrastructure to applications to devices and hardware."
+    },
+    {
+      "id": 21,
+      "name": "Back-end Developer Team Lead",
+      "roleAbout": "The Google Cloud Platform team helps customers transform and build what's next for their business — all with technology built in the cloud. Our products are engineered for security, reliability and scalability, running the full stack from infrastructure to applications to devices and hardware."
+    },
+    {
+      "id": 3,
+      "name": "Project Manager",
+      "roleAbout": "The Google Cloud Platform team helps customers transform and build what's next for their business — all with technology built in the cloud. Our products are engineered for security, reliability and scalability, running the full stack from infrastructure to applications to devices and hardware."
+    },
+    {
+      "id": 31,
+      "name": "Project Manager Team Lead",
+      "roleAbout": "The Google Cloud Platform team helps customers transform and build what's next for their business — all with technology built in the cloud. Our products are engineered for security, reliability and scalability, running the full stack from infrastructure to applications to devices and hardware."
+    }
+  ],
+  "jobrolesdetails": [
+    {
+      "id": 1,
+      "jobrolesId": 1,
+      "roleLevel": 5,
+      "taskDescription": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "minimumQualification": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "preferredQualification": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem"
+    },
+    {
+      "id": 2,
+      "jobrolesId": 1,
+      "roleLevel": 51,
+      "taskDescription": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "minimumQualification": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "preferredQualification": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem"
+    },
+    {
+      "id": 3,
+      "jobrolesId": 1,
+      "roleLevel": 52,
+      "taskDescription": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "minimumQualification": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "preferredQualification": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem"
+    }
+  ],
+  "jobrolesinterviewquestions": [
+    {
+      "id": 1,
+      "jobrolesId": 1,
+      "roleLevel": 5,
+      "question": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": 2,
+      "jobrolesId": 1,
+      "roleLevel": 5,
+      "question": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": 3,
+      "jobrolesId": 1,
+      "roleLevel": 5,
+      "question": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": 4,
+      "jobrolesId": 1,
+      "roleLevel": 51,
+      "question": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": 5,
+      "jobrolesId": 1,
+      "roleLevel": 51,
+      "question": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "title": "New Front-end Developer 45",
+      "departmentsId": 2,
+      "businessUnit": 4,
+      "usersId": 7,
+      "jobrolesId": 1,
+      "roleTaskDescription": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "roleLevel": 5,
+      "highPriority": true,
+      "jobLocationType": 6,
+      "branchesId": 1,
+      "employmentStatus": 71,
+      "minimumQualifications": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "preferredQualifications": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "benefits": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "budget": "0-1.200",
+      "specialCategoriesOpened": 91,
+      "additionalNotes": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "status": 8,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-18T14:57:07.135Z",
+      "users": {},
+      "departments": {},
+      "jobroles": {},
+      "branches": {}
+    },
+    {
+      "id": 2,
+      "title": "New Back-end Developer 12",
+      "departmentsId": 3,
+      "businessUnit": 4,
+      "usersId": 1,
+      "jobrolesId": 2,
+      "roleTaskDescription": "dsafdas",
+      "roleLevel": 51,
+      "highPriority": null,
+      "jobLocationType": 61,
+      "branchesId": 2,
+      "employmentStatus": 7,
+      "minimumQualifications": "fsda",
+      "preferredQualifications": "fsda",
+      "benefits": "fasd",
+      "budget": "0-2000",
+      "specialCategoriesOpened": null,
+      "additionalNotes": null,
+      "status": 81,
+      "createdAt": "2022-02-16T17:26:44.653Z",
+      "updatedAt": "2022-02-16T18:08:47.202Z",
+      "users": {},
+      "departments": {},
+      "jobroles": {},
+      "branches": {}
+    }
+  ],
+  "boardtemplates": [
+    {
+      "id": 1,
+      "title": "Board Template 1",
+      "content": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "requestsId": 1,
+      "boardtemplatesId": 1,
+      "title": "New Front-end Developer 45",
+      "departmentsId": 2,
+      "businessUnit": 4,
+      "usersId": 7,
+      "jobrolesId": 1,
+      "roleLevel": 5,
+      "roleTaskDescription": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "jobLocationType": 6,
+      "branchesId": 1,
+      "employmentStatus": 71,
+      "minimumQualifications": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "preferredQualifications": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "benefits": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "specialCategoriesOpened": 91,
+      "status": 101,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-21T22:31:08.322Z",
+      "boardtemplates": {},
+      "requests": {},
+      "users": {},
+      "departments": {},
+      "jobroles": {},
+      "branches": {}
+    },
+    {
+      "id": 2,
+      "requestsId": 2,
+      "boardtemplatesId": 1,
+      "title": "New Back-End Developer 45",
+      "departmentsId": 3,
+      "businessUnit": 4,
+      "usersId": 1,
+      "jobrolesId": 2,
+      "roleLevel": 5,
+      "roleTaskDescription": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "jobLocationType": 6,
+      "branchesId": 1,
+      "employmentStatus": 71,
+      "minimumQualifications": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "preferredQualifications": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "benefits": "Lorem Ipsum advocate vostrar rivoltuma vos eternus dolorem",
+      "specialCategoriesOpened": 91,
+      "status": 101,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-21T22:31:08.322Z",
+      "boardtemplates": {},
+      "requests": {},
+      "users": {},
+      "departments": {},
+      "jobroles": {},
+      "branches": {}
+    }
+  ],
+  "jaworkingstatuses": [
+    {
+      "id": 1,
+      "picklistsId": 11,
+      "description": "Application is added to the queue and will be reviewed by our team.",
+      "order": 2,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-01-16T14:33:15.092Z"
+    },
+    {
+      "id": 2,
+      "picklistsId": 111,
+      "description": "Application is being screened by human resources",
+      "order": 2,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-01-16T14:33:15.092Z"
+    },
+    {
+      "id": 3,
+      "picklistsId": 112,
+      "description": "Team are selecting candidates for interviews",
+      "order": 3,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-01-16T14:33:15.092Z"
+    },
+    {
+      "id": 4,
+      "picklistsId": 113,
+      "description": "The application has passed initial HR screening",
+      "order": 4,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-01-16T14:33:15.092Z"
+    },
+    {
+      "id": 5,
+      "picklistsId": 114,
+      "description": "The application is currently being processed.",
+      "order": 5,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-01-16T14:33:15.092Z"
+    },
+    {
+      "id": 6,
+      "picklistsId": 116,
+      "description": "Candidate wasn't included in the first round of interviews",
+      "order": 7,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-01-16T14:33:15.092Z"
+    },
+    {
+      "id": 7,
+      "picklistsId": 117,
+      "description": "Position is closed. No further applications are accepted.",
+      "order": 8,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-01-16T14:33:15.092Z"
+    }
+  ],
+  "jobsapplications": [
+    {
+      "id": 1,
+      "jobsId": 1,
+      "candidatesId": 1,
+      "jaworkingstatusesId": 3,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-25T21:48:51.577Z",
+      "jobs": null,
+      "candidates": null
+    },
+    {
+      "id": 2,
+      "jobsId": 1,
+      "candidatesId": 2,
+      "jaworkingstatusesId": 1,
+      "createdAt": "2020-02-01T00:00:00.000Z",
+      "updatedAt": "2022-02-16T14:33:15.092Z"
+    },
+    {
+      "id": 3,
+      "jobsId": 2,
+      "candidatesId": 4,
+      "jaworkingstatusesId": 2,
+      "createdAt": "2020-03-04T00:00:00.000Z",
+      "updatedAt": "2022-03-16T14:33:15.092Z"
+    },
+    {
+      "id": 4,
+      "jobsId": 2,
+      "candidatesId": 3,
+      "jaworkingstatusesId": 1,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-01-16T14:33:15.092Z"
+    }
+  ],
+  "jobsapplicationsactivities": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3,
+      "jobsapplicationsId": 2,
+      "date": "2020-01-01T00:00:00.000Z",
+      "type": 12,
+      "description": "lorem ipsum",
+      "createdAt": "2020-03-04T00:00:00.000Z",
+      "updatedAt": "2022-03-16T14:33:15.092Z"
+    },
+    {
+      "id": 90
+    },
+    {
+      "id": 53
+    },
+    {
+      "id": 88
+    },
+    {
+      "id": 75
+    },
+    {
+      "id": 56
+    },
+    {
+      "id": 94
+    },
+    {
+      "id": 44
+    },
+    {
+      "id": 48
+    },
+    {
+      "id": 36
+    },
+    {
+      "id": 32
+    },
+    {
+      "id": 71
+    },
+    {
+      "id": 61,
+      "jobsapplicationsId": 1,
+      "date": "2022-02-25T21:19:07.632Z",
+      "type": 12,
+      "description": "aqw",
+      "createdAt": "2022-02-25T21:19:07.632Z",
+      "updatedAt": "2022-02-25T21:19:07.632Z"
+    },
+    {
+      "id": 41,
+      "jobsapplicationsId": 1,
+      "date": "2022-02-25T21:34:16.679Z",
+      "type": 12,
+      "description": "sd",
+      "createdAt": "2022-02-25T21:34:16.679Z",
+      "updatedAt": "2022-02-25T21:34:16.679Z"
+    }
+  ],
+  "interviews": [
+    {
+      "id": 1,
+      "jobsapplicationsId": 1,
+      "stage": 14,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-25T21:48:51.577Z"
+    },
+    {
+      "id": 2,
+      "jobsapplicationsId": 2,
+      "stage": 140,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-25T21:48:51.577Z"
+    }
+  ],
+  "interviewrounds": [
+    {
+      "id": 1,
+      "interviewsId": 1,
+      "name": "HR Screening",
+      "rating": 5,
+      "passed": true,
+      "scheduledAt": "2022-04-19T08:00:00.000Z",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-25T21:48:51.577Z"
+    },
+    {
+      "id": 2,
+      "interviewsId": 1,
+      "name": "Technical Round",
+      "rating": 1,
+      "passed": null,
+      "scheduledAt": "2022-04-28T08:00:00.000Z",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-25T21:48:51.577Z"
+    },
+    {
+      "id": 3,
+      "interviewsId": 2,
+      "name": "Technical Round",
+      "rating": 4,
+      "passed": null,
+      "scheduledAt": "2022-04-28T08:00:00.000Z",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-25T21:48:51.577Z"
+    }
+  ],
+  "interviewattendees": [
+    {
+      "id": 1,
+      "interviewsroundsId": 1,
+      "usersId": 4,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-25T21:48:51.577Z"
+    },
+    {
+      "id": 2,
+      "interviewsroundsId": 1,
+      "usersId": 7,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-25T21:48:51.577Z"
+    },
+    {
+      "id": 3,
+      "interviewsroundsId": 2,
+      "usersId": 71,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-25T21:48:51.577Z"
+    }
+  ],
+  "interviewfeedbacks": [
+    {
+      "id": 1,
+      "interviewsroundsId": 1,
+      "interviewattendeesId": 1,
+      "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      "rating": 5,
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-25T21:48:51.577Z"
+    }
+  ],
+  "candidates": [
+    {
+      "id": 1,
+      "firstname": "Leanne",
+      "lastname": "Graham",
+      "email": "leanne.graham@gmail.com",
+      "phoneNumber": "1-770-736-8031 x56442",
+      "address": "Hoeger Mall",
+      "city": "South Elvis",
+      "state": "MN",
+      "zipCode": "53919-4257",
+      "country": "USA",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-16T14:33:15.092Z"
+    },
+    {
+      "id": 2,
+      "firstname": "Ervin",
+      "lastname": "Howell",
+      "email": "ervin.howell@gmail.com",
+      "phoneNumber": "1-770-736-8031 x56442",
+      "address": "Hoeger Mall",
+      "city": "South Elvis",
+      "state": "MN",
+      "zipCode": "53919-4257",
+      "country": "USA",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-16T14:33:15.092Z"
+    },
+    {
+      "id": 3,
+      "firstname": "Clementine",
+      "lastname": "Bauch",
+      "email": "clementine.bauch@gmail.com",
+      "phoneNumber": "1-770-736-8031 x56442",
+      "address": "Hoeger Mall",
+      "city": "South Elvis",
+      "state": "MN",
+      "zipCode": "53919-4257",
+      "country": "USA",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-16T14:33:15.092Z"
+    },
+    {
+      "id": 4,
+      "firstname": "Patricia",
+      "lastname": "Lebsack",
+      "email": "patricia.lebsack@gmail.com",
+      "phoneNumber": "1-770-736-8031 x56442",
+      "address": "Hoeger Mall",
+      "city": "South Elvis",
+      "state": "MN",
+      "zipCode": "53919-4257",
+      "country": "USA",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-16T14:33:15.092Z"
+    },
+    {
+      "id": 5,
+      "firstname": "Chelsey",
+      "lastname": "Dietrich",
+      "email": "chelsey.dietrich@gmail.com",
+      "phoneNumber": "1-770-736-8031 x56442",
+      "address": "Hoeger Mall",
+      "city": "South Elvis",
+      "state": "MN",
+      "zipCode": "53919-4257",
+      "country": "USA",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-16T14:33:15.092Z"
+    },
+    {
+      "id": 6,
+      "firstname": "Mrs. Dennis",
+      "lastname": "Russel",
+      "email": "dennis.russel@gmail.com",
+      "phoneNumber": "1-770-736-8031 x56442",
+      "address": "Hoeger Mall",
+      "city": "South Elvis",
+      "state": "MN",
+      "zipCode": "53919-4257",
+      "country": "USA",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-16T14:33:15.092Z"
+    },
+    {
+      "id": 7,
+      "firstname": "Kurtis",
+      "lastname": "Weissnat",
+      "email": "kurstis.weissnat@gmail.com",
+      "phoneNumber": "1-770-736-8031 x56442",
+      "address": "Hoeger Mall",
+      "city": "South Elvis",
+      "state": "MN",
+      "zipCode": "53919-4257",
+      "country": "USA",
+      "createdAt": "2020-01-01T00:00:00.000Z",
+      "updatedAt": "2022-02-16T14:33:15.092Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstname": "Leanne",
+      "lastname": "Graham23",
+      "email": "leanne.graham@gmail.com",
+      "recruitingRole": "interviewer",
+      "department": "IT Infrastructure",
+      "companyRoleLevel": "Specialist",
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "firstname": "Ervin",
+      "lastname": "Howell",
+      "email": "ervin.howell@gmail.com",
+      "recruitingRole": "interviewer",
+      "department": "IT Infrastructure",
+      "companyRoleLevel": "Specialist",
+      "isAdmin": true
+    },
+    {
+      "id": 3,
+      "firstname": "Clementine",
+      "lastname": "Bauch",
+      "email": "clementine.bauch@gmail.com",
+      "recruitingRole": "hiring-manager",
+      "department": "Human Resources",
+      "companyRoleLevel": "Manager",
+      "isAdmin": false
+    },
+    {
+      "id": 4,
+      "firstname": "Patricia",
+      "lastname": "Lebsack",
+      "email": "patricia.lebsack@gmail.com",
+      "recruitingRole": "recruiter",
+      "department": "Human Resources",
+      "companyRoleLevel": "Specialist",
+      "isAdmin": false
+    },
+    {
+      "id": 5,
+      "firstname": "Chelsey",
+      "lastname": "Dietrich",
+      "email": "chelsey.dietrich@gmail.com",
+      "recruitingRole": "recruiter",
+      "department": "Human Resources",
+      "companyRoleLevel": "Specialist",
+      "isAdmin": false
+    },
+    {
+      "id": 6,
+      "firstname": "Mrs. Dennis",
+      "lastname": "Russel",
+      "email": "dennis.russel@gmail.com",
+      "recruitingRole": "recruiter",
+      "department": "Human Resources",
+      "companyRoleLevel": "Specialist",
+      "isAdmin": false
+    },
+    {
+      "id": 7,
+      "firstname": "Kurtis",
+      "lastname": "Weissnat",
+      "email": "kurstis.weissnat@gmail.com",
+      "recruitingRole": "interviewer",
+      "department": "Front-end Developers",
+      "companyRoleLevel": "Manager",
+      "businessUnit": "Alpha Product",
+      "isAdmin": false
+    },
+    {
+      "id": 71,
+      "firstname": "Nicholas",
+      "lastname": "Runolfsdottir",
+      "email": "nicholas.runolfsdottir@gmail.com",
+      "recruitingRole": "interviewer",
+      "department": "Front-end Developers",
+      "companyRoleLevel": "Team Lead",
+      "businessUnit": "Beta Product",
+      "isAdmin": false
+    },
+    {
+      "id": 72,
+      "firstname": "Glenna",
+      "lastname": "Reichert",
+      "email": "glenna.reichert@gmail.com",
+      "recruitingRole": "interviewer",
+      "department": "Front-end Developers",
+      "companyRoleLevel": "Team Lead",
+      "businessUnit": "Delta Product",
+      "isAdmin": false
+    },
+    {
+      "id": 8,
+      "firstname": "Nicholas",
+      "lastname": "Runolfsdottir",
+      "email": "nicholas.runolfsdottir@gmail.com",
+      "recruitingRole": "interviewer",
+      "department": "Back-end Developers",
+      "companyRoleLevel": "Team Lead",
+      "isAdmin": false
+    },
+    {
+      "id": 9,
+      "firstname": "Glenna",
+      "lastname": "Reichert",
+      "email": "glenna.reichert@gmail.com",
+      "recruitingRole": "interviewer",
+      "department": "Database Developers",
+      "companyRoleLevel": "Team Lead",
+      "isAdmin": false
+    },
+    {
+      "id": 10,
+      "firstname": "Clementina",
+      "lastname": "DuBuque",
+      "email": "clementine.dubuque@gmail.com",
+      "recruitingRole": "interviewer",
+      "department": "IT Infrastructure",
+      "companyRoleLevel": "Team Lead",
+      "isAdmin": false
+    },
+    {
+      "id": 11,
+      "firstname": "Nicholas",
+      "lastname": "Runolfsdottir",
+      "email": "nicholas.runolfsdottir@gmail.com",
+      "recruitingRole": "interviewer",
+      "department": null,
+      "companyRoleLevel": null,
+      "isAdmin": false
+    },
+    {
+      "id": 12,
+      "firstname": "Glenna",
+      "lastname": "Reichert",
+      "email": "glenna.reichert@gmail.com",
+      "recruitingRole": "interviewer",
+      "department": null,
+      "companyRoleLevel": null,
+      "isAdmin": false
+    },
+    {
+      "firstname": "Nicola",
+      "lastname": "Lanzoni",
+      "email": "lanzoni.nicola@gmail.com",
+      "department": "Human Resources",
+      "companyRoleLevel": "Manager",
+      "recruitingRole": "interviewer",
+      "isAdmin": false,
+      "id": 73
+    },
+    {
+      "firstname": "Nicola",
+      "lastname": "Lanzoni",
+      "email": "lanzoni.nicola@gmail.com",
+      "department": "Back-end Developers",
+      "companyRoleLevel": "Team Lead",
+      "recruitingRole": "manager",
+      "isAdmin": false,
+      "id": 74
+    },
+    {
+      "firstname": "Dioni",
+      "lastname": "Malacarne",
+      "email": "malcarnemara@gmail.com",
+      "department": null,
+      "companyRoleLevel": null,
+      "recruitingRole": null,
+      "id": 76,
+      "isAdmin": false
     }
   ]
 }
